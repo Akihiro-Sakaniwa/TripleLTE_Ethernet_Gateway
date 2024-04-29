@@ -8,6 +8,9 @@ On the Ethernet side, we use a board with 8720a connected to ESP32 via RMII, and
 In order to know the LTE connection status of each nRF9160 on the ESP32 side, a total of three Status lines are connected. 
 The Status line is LOW when the LTE connection status is valid, and HIGH when it is invalid.
 
+![image](https://raw.githubusercontent.com/Akihiro-Sakaniwa/TripleLTE_Ethernet_Gateway/main/TripleLTE_Ethernet_Gateway.png)
+
+
 I hope this is of some use to you.
 
 FOTA related functions have been omitted because the code would be complicated.
