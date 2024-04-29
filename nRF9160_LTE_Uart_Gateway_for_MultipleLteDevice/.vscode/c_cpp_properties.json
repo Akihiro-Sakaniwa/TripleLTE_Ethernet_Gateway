@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                //"/opt/nordic/ncs/v2.6.0/zephyr/include/**",
+                //"/opt/nordic/ncs/v2.6.0/nrf/**",
+                //"/opt/nordic/ncs/v2.6.0/modules/**"
+                "/opt/nordic/ncs/v2.5.2/zephyr/include/**",
+                "/opt/nordic/ncs/v2.5.2/nrf/**",
+                "/opt/nordic/ncs/v2.5.2/modules/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                ""
+            ],
+            "compilerPath": "",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "configurationProvider": "nordic-semiconductor.nrf-connect"
+        }
+    ],
+    "version": 4
+}
